@@ -1,0 +1,13 @@
+{
+  "boilerplate.containers.HomePage.start_project.header": "Spring React Template",
+  "boilerplate.containers.HomePage.start_project.message": "Hoşgeldiniz",
+  "boilerplate.containers.NotFoundPage.header": "Sayfa bulunamadı",
+  "srt.components.Header.logout": "Çıkış Yap",
+  "srt.components.Header.home": "Anasayfa",
+  "srt.containers.LoginPage.loginButton": "Giriş Yap",
+  "srt.containers.LoginPage.wrongCredentials.message": "Hatalı kullanıcı adı ya da parola",
+  "srt.request.network.error.message": "İnternet bağlantınızı kontrol edip, yeniden deneyiniz",
+  "srt.request.server.error.message": "Hata oluştu",
+  "srt.request.timeout.error.message": "İstek zaman aşımına uğradı, lütfen yeniden deneyiniz",
+  "srt.request.unauthorizedError.error.message": "Açık bir oturumunuz bulunmamaktadır"
+}

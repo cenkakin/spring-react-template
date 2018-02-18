@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: Spring-React-Template
+  dataSources:
+    spring-react-template:
+      primary: true
+      poolName: spring-react-template
+      driverClassName: com.mysql.jdbc.Driver
+      username: ${prop.spring.dataSources.spring-react-template.username}
+      password: ${prop.spring.dataSources.spring-react-template.password}
+      jdbcUrl: ${prop.spring.dataSources.spring-react-template.jdbcUrl}
+      #maximumPoolSize: 20
+      dataSourceProperties:
+        cachePrepStmts: true
+        prepStmtCacheSize: 250
+        prepStmtCacheSqlLimit: 2048
+        useServerPrepStmts: true
+        useLocalSessionState: true
+        useLocalTransactionState: true
+        rewriteBatchedStatements: true
+        cacheResultSetMetadata: true
+        cacheServerConfiguration: true
+        elideSetAutoCommits: true
+        maintainTimeStats: false
+    app:
+  environment: ${prop.global.environment}
