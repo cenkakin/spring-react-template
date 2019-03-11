@@ -6,7 +6,7 @@ Follow these steps to run:
 2) go to _localhost:3000_
 3) credentials to login: _user password_ , _admin password_
 
-For react side, examine these projects: https://github.com/react-boilerplate/react-boilerplate + https://ant.design/ 
+For react side, check these projects out: https://github.com/react-boilerplate/react-boilerplate + https://ant.design/ 
 
 
 
